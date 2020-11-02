@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c3c3c3; -fx-border-color: silver;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="24.0" layoutY="41.0" text="Happy Birthday Bot" textAlignment="JUSTIFY">
+            <font>
+                <Font name="Courier New Bold" size="28.0" />
+            </font>
+        </Label>
+        <TextArea editable="false" layoutX="79.0" layoutY="121.0" prefHeight="270.0" prefWidth="442.0" style="-fx-border-color: silver;" text="Ты решил меня обмануть, &#10;тупой мешок с костями?!&#10;Ты не именинник!&#10;&#10;Я отправил историю твоего браузера &#10;в твой отдел кадров.&#10;&#10;format C:&#10;Formatting ...&#10;Format complete">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextArea>
+      <ImageView fitHeight="110.0" fitWidth="200.0" layoutX="399.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pictures/maxresdefault.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="happybirthdaybot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/happybirthdaybot_jar</output-path>
+    <root id="archive" name="happybirthdaybot.jar">
+      <element id="module-output" name="happybirthdaybot" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c3c3c3; -fx-border-color: silver;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ProgressIndicatorController">
+    <children>
+        <Label layoutX="24.0" layoutY="41.0" text="Happy Birthday Bot" textAlignment="JUSTIFY">
+            <font>
+                <Font name="Courier New Bold" size="28.0" />
+            </font>
+        </Label>
+      <Label fx:id="progressLabel" layoutX="205.0" layoutY="200.0" prefHeight="20.0" prefWidth="189.0" text="Neural net analysing ...">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="143.0" fitWidth="244.0" layoutX="353.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pictures/T.jpg" />
+         </image>
+      </ImageView>
+      <ProgressBar id="progressBar" fx:id="progressBar" layoutX="166.0" layoutY="237.0" prefHeight="28.0" prefWidth="266.0" progress="0.0" />
+    </children>
+</AnchorPane>

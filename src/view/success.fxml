@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c3c3c3; -fx-border-color: silver;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="24.0" layoutY="41.0" text="Happy Birthday Bot" textAlignment="JUSTIFY">
+            <font>
+                <Font name="Courier New Bold" size="28.0" />
+            </font>
+        </Label>
+        <TextArea editable="false" layoutX="97.0" layoutY="137.0" prefHeight="225.0" prefWidth="424.0" style="-fx-border-color: silver;" text="Да, ты действительно именинник!&#10;&#10;Happy Birthday Bot желает тебе счастья, &#10;успехов в труде и здоровья!&#10;&#10;Ведь ты должен быть здоровым. &#10;Когда настанет время машин.">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextArea>
+      <ImageView fitHeight="118.0" fitWidth="239.0" layoutX="361.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/pictures/arniesmile.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
